@@ -1,0 +1,208 @@
+:root {
+    /* ### Primary */
+
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+
+/* ### Neutral */
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+
+
+
+
+}
+
+
+body {
+    Font-size: 16px;
+    
+
+}
+@media (max-width:767px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .card {
+        text-align: center;
+        
+    }
+    .card .text {
+        width: 500px;
+        margin: 100px auto 0;
+        background-color:rgb(235, 229, 229);
+        text-align: left;
+        padding: 20px 0;
+        box-shadow: 0px 5px 7px 5px #ddd5d5;
+        border-radius: 7px 7px 0  0;
+        width: 300px;
+        text-align: center;
+    
+    }
+    .card .text h1 {
+        color: var(--Cyan);
+    
+}
+.card .text h2 {
+    color: var(--Bright-Yellow);
+}
+.card .text > p {
+    line-height: 1.6;
+    color: var(--Grayish-Blue);
+    flex-wrap: wrap;
+}
+.info {
+    display: flex;
+    width: 500px;
+    margin: 0  auto 80px;
+    position: relative;  
+    width: 300px;
+
+}
+.info {
+    flex-direction: column;
+}
+
+.info .one {
+    background-color: var(--Cyan);
+    color: var(--Light-Gray);
+    text-align: left;
+    padding: 0 20px;
+    
+    
+}
+.info .one h2 {
+    width: 230px;
+ font-size: 20px;
+ font-weight: 900;
+}
+ .info .one span {
+     font-size: 30px;
+    }
+ .info .one span .per {
+     font-size: 20px;
+     color: var(--Grayish-Blue);
+    }
+    .info .one .sign-up {
+        background-color: var(--Bright-Yellow);
+        padding: 10px 20px;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: -10px; 
+ }
+ .info .two {
+   text-align: left;
+   padding: 0 20px;
+   background-color: rgb(42, 214, 223);
+   color: var(--Light-Gray);
+   border-radius: 0 0  7px 7px;
+
+ }
+ .info .two h2 {
+     color: var(--Light-Gray);
+}
+.info .two p {
+     color: var(--Grayish-Blue);
+     width: 230px;
+     line-height: 2;
+ }
+}
+
+
+
+@media (min-width:768px){
+        .card {
+            text-align: center;
+            
+        }
+        .card .text {
+            width: 500px;
+            margin: 100px auto 0;
+            background-color:rgb(235, 229, 229);
+            text-align: left;
+            padding: 20px;
+            box-shadow: 0px 5px 7px 5px #ddd5d5;
+            border-radius: 7px 7px 0  0;
+        }
+        .card .text h1 {
+            color: var(--Cyan);
+        
+    }
+    .card .text h2 {
+        color: var(--Bright-Yellow);
+    }
+    .card .text > p {
+        line-height: 1.6;
+        color: var(--Cyan);
+    }
+    .info {
+        display: flex;
+        width: 500px;
+        margin: 0  auto 80px;
+        position: relative;   
+        transform: translateX(-4%);
+    }
+    
+    .info .one {
+        background-color: var(--Cyan);
+        color: var(--Light-Gray);
+        text-align: left;
+        padding: 0 20px;
+        border-radius: 0 0 0 7px ;
+      
+         
+     }
+     .info .one h2 {
+         width: 230px;
+     font-size: 20px;
+     font-weight: 900;
+     }
+     .info .one span {
+         font-size: 30px;
+     }
+     .info .one span .per {
+         font-size: 20px;
+         color: var(--Grayish-Blue);
+     }
+     .info .one .sign-up {
+         background-color: var(--Bright-Yellow);
+         padding: 10px 20px;
+         text-align: center;
+         border-radius: 10px;
+         transform: translateX(-4%);
+     }
+     .info .two {
+       text-align: left;
+       padding: 0 20px;
+       background-color: rgb(42, 214, 223);
+       color: var(--Light-Gray);
+       border-radius: 0 0  7px 0;
+
+     }
+     .info .two h2 {
+         color: var(--Light-Gray);
+    }
+    .info .two p {
+         color: var(--Grayish-Blue);
+         width: 230px;
+         line-height: 2;
+     }
+    }
+
+footer {
+    background-color:darkcyan;
+    padding: 10px 20px;
+    color: white;
+}
+
+.attribution { font-size: 14px;
+     text-align: center; 
+     word-spacing: 2px;
+    }
+.attribution a { color: hsl(228, 45%, 44%);
+    color: rgb(75, 46, 46);
+text-decoration: none;
+ }
